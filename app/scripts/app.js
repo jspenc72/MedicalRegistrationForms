@@ -35,7 +35,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
     views: {
       'menuContent': {
         templateUrl: "templates/registration.html",
-        controller: 'PatientRegistrationCtrl'
+        controller: 'RegistrationCtrl'
       }
     }
   })

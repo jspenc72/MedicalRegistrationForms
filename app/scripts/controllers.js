@@ -4,7 +4,7 @@ angular.module('starter.controllers', [])
 
 })
 
-.controller('PatientRegistrationCtrl', function($scope) {
+.controller('RegistrationCtrl', function($scope) {
 
 })
 
