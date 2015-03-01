@@ -8,7 +8,19 @@ angular.module('starter.controllers', [])
 
 })
 
-.controller('InsuranceCtrl', function($scope) {
+.controller('InsuranceCtrl', function($scope, $ionicModal) {
+
+  $ionicModal.fromTemplateUrl('templates/forms/insurance-verification.html', {
+    scope: $scope
+  }).then(function(modal) {
+    $scope.insuranceVerificationModal = modal;
+  });
+
+  $ionicModal.fromTemplateUrl('templates/forms/insurance-preauthorization-request.html', {
+    scope: $scope
+  }).then(function(modal) {
+    $scope.insurancePreauthorizationRequestModal = modal;
+  });
 
 })
 
