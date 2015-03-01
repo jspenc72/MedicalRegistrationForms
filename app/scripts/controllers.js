@@ -4,7 +4,13 @@ angular.module('starter.controllers', [])
 
 })
 
-.controller('RegistrationCtrl', function($scope) {
+.controller('RegistrationCtrl', function($scope, $ionicModal) {
+
+  $ionicModal.fromTemplateUrl('templates/forms/patient-registration.html', {
+    scope: $scope
+  }).then(function(modal) {
+    $scope.patientRegistrationModal = modal;
+  });
 
 })
 

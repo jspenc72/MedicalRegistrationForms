@@ -2,23 +2,20 @@
   <!-- Modal header bar -->
   <ion-header-bar class="bar-secondary">
     <h1 class="title">Insurance Preauthorization</h1>
-    <button class="button button-clear button-positive" ng-click="closeNewCompanyModal()">Cancel</button>
+    <button class="button button-clear button-positive" ng-click="insurancePreauthorizationRequestModal.hide()">Cancel</button>
   </ion-header-bar>
   <!-- Modal content area -->
   <ion-content>
     <form>
       <div class="list">
         <div class="item item-divider">
-          Insurance Verification Information
+          Insurance Preauthorization
         </div>
         <label class="item item-input">
           <input type="text" placeholder="Doctor">
         </label>
         <label class="item item-input">
-          <input type="text" placeholder="C A Initials">
-        </label>
-        <label class="item item-input">
-          <input type="text" placeholder="Verifiend on">
+          <input type="text" placeholder="Date">
         </label>
         <label class="item item-input">
           <input type="text" placeholder="Patient #">
@@ -93,6 +90,9 @@
           <input type="text" placeholder="State">
         </label>
         <label class="item item-input">
+          <input type="text" placeholder="Zip">
+        </label>
+        <label class="item item-input">
           <input type="text" placeholder="Group #">
         </label>
         <label class="item item-input">
@@ -111,47 +111,63 @@
           <input type="text" placeholder="Notes">
         </label>
         <div class="item item-divider">
+          Pre-Authorization Request
         </div>      
-        <label class="item item-input">
-          <input type="text" placeholder="Primary or Secondary Insurance">
+        <label class="item item-radio">
+          <input type="radio" name="group">
+          <div class="item-content">
+            Initial Care
+          </div>
+          <i class="radio-icon ion-checkmark"></i>
+        </label>
+        <label class="item item-radio">
+          <input type="radio" name="group">
+          <div class="item-content">
+            Update Care
+          </div>
+          <i class="radio-icon ion-checkmark"></i>
+        </label>
+        <label class="item item-radio">
+          <input type="radio" name="group">
+          <div class="item-content">
+            Primary Insurance
+          </div>
+          <i class="radio-icon ion-checkmark"></i>
+        </label>
+        <label class="item item-radio">
+          <input type="radio" name="group">
+          <div class="item-content">
+            Workers Compensation Insurance
+          </div>
+          <i class="radio-icon ion-checkmark"></i>
         </label>
         <label class="item item-input">
           <input type="text" placeholder="Diagnosis">
         </label>
         <label class="item item-input">
-          <input type="text" placeholder="Treatment Prescribed">
+          <input type="text" placeholder="Treatment Requested">
         </label>
         <label class="item item-input">
-          <input type="text" placeholder="Policy effective from">
+          <input type="text" placeholder="Treatment start date">
         </label>
         <label class="item item-input">
-          <input type="text" placeholder="Deductible amount per year">
+          <input type="text" placeholder="Treatment end date">
         </label>
         <label class="item item-input">
-          <input type="text" placeholder="Deductible met">
+          <input type="text" placeholder="Treatment particulars; (Number and frequency of visits, etc.)">
         </label>
         <label class="item item-input">
-          <input type="text" placeholder="Max payment for initial visit">
+          <input type="text" placeholder="Additional Requirements (Traction, Ultrasound, Physiotherapy, Exercise, Diet, etc.)">
         </label>
         <label class="item item-input">
-          <input type="text" placeholder="Max payment covered per visit">
+          <input type="text" placeholder="Comments and Notes">
         </label>
         <label class="item item-input">
-          <input type="text" placeholder="Max ceiling for X-ray and other diagnostics">
+          <input type="text" placeholder="Doctor's Signature">
         </label>
         <label class="item item-input">
-          <input type="text" placeholder="Max number of visits covered per year">
+          <input type="text" placeholder="Address and Contact details">
         </label>
-        <label class="item item-input">
-          <input type="text" placeholder="Items expressly not covered">
-        </label>
-        <label class="item item-input">
-          <input type="text" placeholder="Items requiring specific tests and confirmation">
-        </label>
-        <label class="item item-input">
-          <input type="text" placeholder="Other notes and comments">
-        </label>
-
       </div>
     </form>
   </ion-content>
