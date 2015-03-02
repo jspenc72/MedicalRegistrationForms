@@ -7,16 +7,25 @@
   <!-- Modal content area -->
   <ion-content>
     <form>
-      <div class="list">
+      <ion-list type="list-inset">
         <div class="item item-divider">
           Insurance Preauthorization
         </div>
-        <label class="item item-input">
-          <input type="text" placeholder="Doctor">
-        </label>
-        <label class="item item-input">
-          <input type="text" placeholder="Date">
-        </label>
+        <div class="row item">
+          <div class="col col-50">
+            <label class="item item-input item-stacked-label">
+              <span class="input-label">Doctor</span>
+              <input type="text" placeholder="Doctor">
+            </label>
+          </div>
+          <div class="col">
+            <label class="item item-input item-stacked-label">
+              <span class="input-label">Date</span>
+              <input type="datetime-local" placeholder="Date">
+            </label>
+          </div>
+        </div>
+
         <label class="item item-input">
           <input type="text" placeholder="Patient #">
         </label>
@@ -26,90 +35,168 @@
         <label class="item item-input">
           <input type="text" placeholder="Case type">
         </label>
-        <label class="item item-input">
-          <input type="text" placeholder="Patient Name">
+        <div class="item item-divider">
+        </div>   
+        <div class="row item">
+          <div class="col col-50">
+            <label class="item item-input item-stacked-label">
+              <span class="input-label">Patient Name</span>
+              <input type="text" placeholder="Patient Name">
+            </label>
+            <label class="item item-input item-stacked-label">
+              <span class="input-label">Insured's Name</span>
+              <input type="text" placeholder="Insured's Name">
+            </label>
+            <label class="item item-input item-stacked-label">
+              <span class="input-label">Relationship</span>
+              <input type="text" placeholder="Relationship">
+            </label>
+          </div>
+          <div class="col">
+            <label class="item item-input item-stacked-label">
+              <span class="input-label">Patient D O B</span>
+              <input type="datetime-local" placeholder="Patient D O B">
+            </label>
+            <label class="item item-input item-stacked-label">
+              <span class="input-label">Insured's D O B</span>
+              <input type="datetime-local" placeholder="Insured's D O B">
+            </label>
+            <label class="item item-input item-stacked-label">
+              <span class="input-label">Since (Date)</span>
+              <input type="datetime-local" placeholder="Since (Date)">
+            </label>
+          </div>
+        </div>
+
+        <label class="item item-input item-stacked-label">
+          <span class="input-label">Injured / Ill since</span>
+          <input type="datetime-local" placeholder="Injured / Ill since">
         </label>
+
+        <div class="item item-divider">
+          Employer Info
+        </div>        
+        <div class="row item">
+          <div class="col col-50">
+            <label class="item item-input item-stacked-label">
+              <span class="input-label">Employer</span>
+              <input type="text" placeholder="Employer">
+            </label>
+            <label class="item item-input item-stacked-label">
+              <span class="input-label">Supervisor</span>
+              <input type="text" placeholder="Supervisor">
+            </label>
+          </div>
+          <div class="col">
+            <label class="item item-input item-stacked-label">
+              <span class="input-label">Phone</span>
+              <input type="datetime-local" placeholder="Phone">
+            </label>
+          </div>
+        </div>    
+        <div class="item item-divider">
+        </div>   
+        <div class="row item">
+          <div class="col">
+            <label class="item item-input">
+              <input type="text" placeholder="Address">
+            </label>            
+          </div>
+        </div>    
+        <div class="row item">
+          <div class="col">
+            <label class="item item-input">
+              <input type="text" placeholder="City">
+            </label>            
+          </div>
+          <div class="col">
+            <label class="item item-input">
+              <input type="text" placeholder="State">
+            </label>            
+          </div>
+          <div class="col">
+            <label class="item item-input">
+              <input type="text" placeholder="Zip">
+            </label>            
+          </div>
+        </div>
         <label class="item item-input">
-          <input type="text" placeholder="Patient D O B">
+          <input type="text" placeholder="Notes">
         </label>
-        <label class="item item-input">
-          <input type="text" placeholder="Insured's Name">
-        </label>
-        <label class="item item-input">
-          <input type="text" placeholder="Insured's D O B">
-        </label>
-        <label class="item item-input">
-          <input type="text" placeholder="Relationship">
-        </label>
-        <label class="item item-input">
-          <input type="text" placeholder="Since (Date)">
-        </label>
-        <label class="item item-input">
-          <input type="text" placeholder="Injured / ill since">
-        </label>
-        <label class="item item-input">
-          <input type="text" placeholder="Employer">
-        </label>
-        <label class="item item-input">
-          <input type="text" placeholder="Phone">
-        </label>
+        <div class="item item-divider">
+          Insurance Company Info
+        </div>   
+
+        <div class="row item">
+          <div class="col col-50">
+            <label class="item item-input item-stacked-label">
+              <span class="input-label">Insurance Company</span>
+              <input type="text" placeholder="Insurance Company">
+            </label>
+            <label class="item item-input item-stacked-label">
+              <span class="input-label">Insured's ID</span>
+              <input type="text" placeholder="Insured's ID">
+            </label>
+          </div>
+          <div class="col">
+            <label class="item item-input item-stacked-label">
+              <span class="input-label">Phone</span>
+              <input type="datetime-local" placeholder="Phone">
+            </label>
+            <label class="item item-input item-stacked-label">
+              <span class="input-label">Contact</span>
+              <input type="datetime-local" placeholder="Contact">
+            </label>
+          </div>
+        </div>    
+        <div class="item item-divider">
+        </div>   
         <label class="item item-input">
           <input type="text" placeholder="Address">
         </label>
-        <label class="item item-input">
-          <input type="text" placeholder="Supervisor">
-        </label>
-        <label class="item item-input">
-          <input type="text" placeholder="City">
-        </label>
-        <label class="item item-input">
-          <input type="text" placeholder="State">
-        </label>
-        <label class="item item-input">
-          <input type="text" placeholder="Zip">
-        </label>
-        <label class="item item-input">
-          <input type="text" placeholder="Note">
-        </label>
-        <label class="item item-input">
-          <input type="text" placeholder="Insurance Company">
-        </label>
-        <label class="item item-input">
-          <input type="text" placeholder="Insurance Company Phone">
-        </label>
-        <label class="item item-input">
-          <input type="text" placeholder="Address">
-        </label>
-        <label class="item item-input">
-          <input type="text" placeholder="Insured's ID">
-        </label>
-        <label class="item item-input">
-          <input type="text" placeholder="City">
-        </label>
-        <label class="item item-input">
-          <input type="text" placeholder="State">
-        </label>
-        <label class="item item-input">
-          <input type="text" placeholder="Zip">
-        </label>
+
+        <div class="row item">
+          <div class="col">
+            <label class="item item-input">
+              <input type="text" placeholder="City">
+            </label>            
+          </div>
+          <div class="col">
+            <label class="item item-input">
+              <input type="text" placeholder="State">
+            </label>            
+          </div>
+          <div class="col">
+            <label class="item item-input">
+              <input type="text" placeholder="Zip">
+            </label>            
+          </div>
+        </div>
+        <div class="item item-divider">
+        </div>   
         <label class="item item-input">
           <input type="text" placeholder="Group #">
         </label>
-        <label class="item item-input">
-          <input type="text" placeholder="Contact">
-        </label>
-        <label class="item item-input">
-          <input type="text" placeholder="Title">
-        </label>
-        <label class="item item-input">
-          <input type="text" placeholder="Phone">
-        </label>
+        <div class="row item">
+          <div class="col">
+            <label class="item item-input">
+              <input type="text" placeholder="Title">
+            </label>          
+          </div>
+          <div class="col">
+            <label class="item item-input">
+              <input type="text" placeholder="Phone">
+            </label>          
+          </div>
+        </div>
+
         <label class="item item-input">
           <input type="text" placeholder="Claim #">
         </label>
         <label class="item item-input">
           <input type="text" placeholder="Notes">
         </label>
+
         <div class="item item-divider">
           Pre-Authorization Request
         </div>      
@@ -141,34 +228,60 @@
           </div>
           <i class="radio-icon ion-checkmark"></i>
         </label>
-        <label class="item item-input">
-          <input type="text" placeholder="Diagnosis">
-        </label>
-        <label class="item item-input">
-          <input type="text" placeholder="Treatment Requested">
-        </label>
-        <label class="item item-input">
-          <input type="text" placeholder="Treatment start date">
-        </label>
-        <label class="item item-input">
-          <input type="text" placeholder="Treatment end date">
-        </label>
-        <label class="item item-input">
-          <input type="text" placeholder="Treatment particulars; (Number and frequency of visits, etc.)">
-        </label>
-        <label class="item item-input">
-          <input type="text" placeholder="Additional Requirements (Traction, Ultrasound, Physiotherapy, Exercise, Diet, etc.)">
-        </label>
+        <div class="item item-divider">
+        </div>   
+        <div class="row item">
+          <div class="col">
+            <label class="item item-input">
+              <input type="text" placeholder="Diagnosis">
+            </label>           
+            <label class="item item-input item-stacked-label">
+              <span class="input-label">Treatment start date</span>
+              <input type="datetime-local" placeholder="Treatment start date">
+            </label>            
+          </div>
+          <div class="col">
+            <label class="item item-input">
+              <input type="text" placeholder="Treatment Requested">
+            </label>  
+            <label class="item item-input item-stacked-label">
+              <span class="input-label">Treatment end date</span>
+              <input type="datetime-local" placeholder="Treatment end date">
+            </label>                      
+          </div>
+        </div>
+        <div class="row item">
+          <div class="col">
+            <label class="item item-input">
+              <input type="text" placeholder="Treatment particulars; (Number and frequency of visits, etc.)">
+            </label>            
+          </div>
+          <div class="col">
+            <label class="item item-input">
+              <input type="text" placeholder="Additional Requirements (Traction, Ultrasound, Physiotherapy, Exercise, Diet, etc.)">
+            </label>
+          </div>
+        </div>
+        <div class="item item-divider">
+        </div>   
         <label class="item item-input">
           <input type="text" placeholder="Comments and Notes">
         </label>
-        <label class="item item-input">
-          <input type="text" placeholder="Doctor's Signature">
-        </label>
-        <label class="item item-input">
-          <input type="text" placeholder="Address and Contact details">
-        </label>
-      </div>
+        <div class="item item-divider">
+        </div>   
+        <div class="row item">
+          <div class="col">
+            <label class="item item-input">
+              <input type="text" placeholder="Doctor's Signature">
+            </label>          
+          </div>
+          <div class="col">
+            <label class="item item-input">
+              <input type="text" placeholder="Address and Contact details">
+            </label>
+          </div>
+        </div>
+      </ion-list>
     </form>
   </ion-content>
 </div>
