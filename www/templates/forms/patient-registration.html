@@ -1,0 +1,518 @@
+<div class="modal">
+  <!-- Modal header bar -->
+  <ion-header-bar class="bar-secondary">
+    <h1 class="title">Patient Registration</h1>
+    <button class="button button-clear button-positive" ng-click="patientRegistrationModal.hide()">Cancel</button>
+  </ion-header-bar>
+  <!-- Modal content area -->
+  <ion-content>
+    <form>
+      <div class="list">
+		<button type="submit" class="button button-block button-positive" >Register</button>
+		<div class="item item-divider">
+			About You
+		</div>		
+        <div class="row item">
+          <div class="col col-50">
+            <label class="item item-input item-stacked-label">
+              <span class="input-label">Name</span>
+              <input type="text" placeholder="Name">
+            </label>
+          </div>
+          <div class="col">
+            <label class="item item-input item-stacked-label">
+              <span class="input-label">Date</span>
+              <input type="datetime-local" placeholder="Date">
+            </label>
+          </div>
+        </div>
+        <div class="row item">
+          <div class="col">
+            <label class="item item-input">
+              <input type="text" placeholder="Street">
+            </label>            
+          </div>
+        </div>    
+        <div class="row item">
+          <div class="col">
+            <label class="item item-input">
+              <input type="text" placeholder="City">
+            </label>            
+          </div>
+          <div class="col">
+            <label class="item item-input">
+              <input type="text" placeholder="State">
+            </label>            
+          </div>
+          <div class="col">
+            <label class="item item-input">
+              <input type="text" placeholder="Zip">
+            </label>            
+          </div>
+        </div>
+        <div class="row item">
+          <div class="col">
+			<label class="item item-input">
+				<input type="text" placeholder="SS #">
+			</label>           
+			<label class="item item-input">
+				<input type="text" placeholder="Driver's License #">
+			</label> 
+          </div>
+          <div class="col">
+			<label class="item item-input">
+				<input type="text" placeholder="D O B">
+			</label>         
+			<label class="item item-input">
+				<input type="number" placeholder="Age">
+			</label>
+			<label class="item item-input">
+				<input type="text" placeholder="Sex">
+			</label>
+          </div>
+        </div>
+		<div class="item item-divider">
+		</div>	
+		<label class="item item-radio">
+			<input type="radio" name="group">
+			<div class="item-content">
+			  Single
+			</div>
+			<i class="radio-icon ion-checkmark"></i>
+		</label>
+		<label class="item item-radio">
+			<input type="radio" name="group">
+			<div class="item-content">
+			  Married
+			</div>
+			<i class="radio-icon ion-checkmark"></i>
+		</label>
+		<label class="item item-radio">
+			<input type="radio" name="group">
+			<div class="item-content">
+			  Divorced
+			</div>
+			<i class="radio-icon ion-checkmark"></i>
+		</label>
+		<label class="item item-radio">
+			<input type="radio" name="group">
+			<div class="item-content">
+			  Separated
+			</div>
+			<i class="radio-icon ion-checkmark"></i>
+		</label>
+		<label class="item item-radio">
+			<input type="radio" name="group">
+			<div class="item-content">
+			  Widow
+			</div>
+			<i class="radio-icon ion-checkmark"></i>
+		</label>
+		<div class="item item-divider">
+		</div>
+
+        <div class="row item">
+          <div class="col">
+         
+          </div>
+          <div class="col">
+			<label class="item item-input">
+				<input type="tel" placeholder="Mobile">
+			</label> 
+			<label class="item item-input">
+				<input type="tel" placeholder="Home Phone">
+			</label>          
+			<label class="item item-input">
+				<input type="tel" placeholder="Work Phone">
+			</label>  
+          </div>
+
+        </div>
+        <div class="item item-divider">
+          Employer Info
+        </div>  
+
+        <div class="row item">
+          <div class="col">
+			<label class="item item-input">
+				<input type="text" placeholder="Employer">
+			</label>
+
+			<label class="item item-input">
+				<input type="text" placeholder="Occupation">
+			</label>         
+          </div>
+          <div class="col">
+			<label class="item item-input">
+				<input type="tel" placeholder="Mobile">
+			</label> 
+			<label class="item item-input">
+				<input type="tel" placeholder="Home Phone">
+			</label>          
+			<label class="item item-input">
+				<input type="tel" placeholder="Work Phone">
+			</label>  
+          </div>
+
+        </div>
+
+
+
+
+
+
+        <label class="item item-input">
+          <input type="text" placeholder="Address">
+        </label>
+
+        <div class="row item">
+          <div class="col">
+            <label class="item item-input">
+              <input type="text" placeholder="City">
+            </label>            
+          </div>
+          <div class="col">
+            <label class="item item-input">
+              <input type="text" placeholder="State">
+            </label>            
+          </div>
+          <div class="col">
+            <label class="item item-input">
+              <input type="text" placeholder="Zip">
+            </label>            
+          </div>
+        </div>
+
+		<div class="item item-divider">
+			Spouse
+		</div>	
+        <div class="row item">
+          <div class="col">
+			<label class="item item-input">
+				<input type="text" placeholder="Name">
+			</label>     
+			<label class="item item-input">
+				<input type="text" placeholder="SS #">
+			</label>			      
+          </div>
+
+          <div class="col">
+			<label class="item item-input">
+				<input type="datetime-local" placeholder="D O B">
+			</label>          
+          </div>
+        </div>
+
+
+
+        <div class="row item">
+          <div class="col">
+			<label class="item item-input">
+				<input type="text" placeholder="Employer">
+			</label>
+
+			<label class="item item-input">
+				<input type="text" placeholder="Occupation">
+			</label>         
+          </div>
+          <div class="col">
+			<label class="item item-input">
+				<input type="tel" placeholder="Phone">
+			</label> 
+          </div>
+        </div>
+        <div class="item item-divider">
+          Insurance Company Info
+        </div>      
+
+        <div class="row item">
+          <div class="col">
+			<label class="item item-input">
+				<input type="text" placeholder="Insurance">
+			</label>
+
+			<label class="item item-input">
+				<input type="text" placeholder="Insurance Policy #">
+			</label>         
+          </div>
+          <div class="col">
+			<label class="item item-input">
+				<input type="tel" placeholder="Phone">
+			</label> 
+          </div>
+        </div>
+		<div class="item item-divider">
+			Insurance Details
+		</div>	
+        <div class="row item">
+          <div class="col">
+			<label class="item item-input">
+				<input type="text" placeholder="Insured's Name">
+			</label>     			      
+			<label class="item item-input">
+				<input type="text" placeholder="Relationship">
+			</label>
+          </div>
+
+          <div class="col">
+			<label class="item item-input">
+				<input type="datetime-local" placeholder="D O B">
+			</label>          
+			<label class="item item-input">
+				<input type="datetime-local" placeholder="Since (Date)">
+			</label>
+          </div>
+        </div>
+
+        <div class="item item-divider">
+          Employer Info
+        </div>        
+        <div class="row item">
+          <div class="col col-50">
+            <label class="item item-input item-stacked-label">
+              <span class="input-label">Employer</span>
+              <input type="text" placeholder="Employer">
+            </label>
+            <label class="item item-input item-stacked-label">
+              <span class="input-label">Supervisor</span>
+              <input type="text" placeholder="Supervisor">
+            </label>
+          </div>
+          <div class="col">
+            <label class="item item-input item-stacked-label">
+              <span class="input-label">Phone</span>
+              <input type="datetime-local" placeholder="Phone">
+            </label>
+          </div>
+        </div>    
+        <div class="item item-divider">
+        </div>  
+
+        <label class="item item-input">
+          <input type="text" placeholder="Address">
+        </label>
+
+        <div class="row item">
+          <div class="col">
+            <label class="item item-input">
+              <input type="text" placeholder="City">
+            </label>            
+          </div>
+          <div class="col">
+            <label class="item item-input">
+              <input type="text" placeholder="State">
+            </label>            
+          </div>
+          <div class="col">
+            <label class="item item-input">
+              <input type="text" placeholder="Zip">
+            </label>            
+          </div>
+        </div>
+        <div class="item item-divider">
+        </div>   
+
+		<label class="item item-input">
+			<input type="text" placeholder="Note">
+		</label>
+        <div class="item item-divider">
+          Insurance Company Info
+        </div>  
+        <div class="row item">
+          <div class="col col-50">
+            <label class="item item-input item-stacked-label">
+              <span class="input-label">Insurance Company</span>
+              <input type="text" placeholder="Insurance Company">
+            </label>
+            <label class="item item-input item-stacked-label">
+              <span class="input-label">Insured's ID</span>
+              <input type="text" placeholder="Insured's ID">
+            </label>
+          </div>
+          <div class="col">
+            <label class="item item-input item-stacked-label">
+              <span class="input-label">Phone</span>
+              <input type="datetime-local" placeholder="Phone">
+            </label>
+          </div>
+        </div>
+        <div class="item item-divider">
+        </div>  
+
+        <label class="item item-input">
+          <input type="text" placeholder="Address">
+        </label>
+
+        <div class="row item">
+          <div class="col">
+            <label class="item item-input">
+              <input type="text" placeholder="City">
+            </label>            
+          </div>
+          <div class="col">
+            <label class="item item-input">
+              <input type="text" placeholder="State">
+            </label>            
+          </div>
+          <div class="col">
+            <label class="item item-input">
+              <input type="text" placeholder="Zip">
+            </label>            
+          </div>
+        </div>
+        <div class="item item-divider">
+        </div>   
+
+
+		<label class="item item-input">
+			<input type="text" placeholder="Group #">
+		</label>
+		<label class="item item-input">
+			<input type="text" placeholder="Contact">
+		</label>
+
+
+		<label class="item item-input">
+			<input type="text" placeholder="Title">
+		</label>
+		<label class="item item-input">
+			<input type="tel" placeholder="Phone">
+		</label>
+		<label class="item item-input">
+			<input type="text" placeholder="Claim #">
+		</label>
+		<label class="item item-input">
+			<input type="text" placeholder="Notes">
+		</label>
+		<div class="item item-divider">
+			Details of illness or injury
+		</div>
+		<label class="item item-input">
+			<input type="text" placeholder="Details of illness or injury (Include Date)">
+		</label>
+		<label class="item item-input">
+			<input type="text" placeholder="Progression of your current condition since it started">
+		</label>
+		<label class="item item-radio">
+			<input type="radio" name="progression">
+			<div class="item-content">
+			  Same
+			</div>
+			<i class="radio-icon ion-checkmark"></i>
+		</label>
+		<label class="item item-radio">
+			<input type="radio" name="progression">
+			<div class="item-content">
+			  Improved
+			</div>
+			<i class="radio-icon ion-checkmark"></i>
+		</label>
+		<label class="item item-radio">
+			<input type="radio" name="progression">
+			<div class="item-content">
+			  Worse
+			</div>
+			<i class="radio-icon ion-checkmark"></i>
+		</label>
+		<label class="item item-radio">
+			<input type="radio" name="progression">
+			<div class="item-content">
+			  Other
+			</div>
+			<i class="radio-icon ion-checkmark"></i>
+		</label>
+		<label class="item item-input">
+			<input type="text" placeholder="Does your present condition affect your daily activities at home or in the office? Describe">
+		</label>
+        <div class="row item">
+          <div class="col col-50">
+			<label class="item item-checkbox">
+				<label class="checkbox">
+					<input type="checkbox">
+				</label>
+				Sharp
+			</label>
+			<label class="item item-checkbox">
+				<label class="checkbox">
+					<input type="checkbox">
+				</label>
+				Tingling
+			</label>
+			<label class="item item-checkbox">
+				<label class="checkbox">
+					<input type="checkbox">
+				</label>
+				Throbbing
+			</label>
+			<label class="item item-checkbox">
+				<label class="checkbox">
+					<input type="checkbox">
+				</label>
+				Numbness
+			</label>
+			<label class="item item-checkbox">
+				<label class="checkbox">
+					<input type="checkbox">
+				</label>
+				Aching
+			</label>
+			<label class="item item-checkbox">
+				<label class="checkbox">
+					<input type="checkbox">
+				</label>
+				Other
+			</label>
+          </div>
+          <div class="col">
+			<label class="item item-checkbox">
+				<label class="checkbox">
+					<input type="checkbox">
+				</label>
+				Shooting
+			</label>
+			<label class="item item-checkbox">
+				<label class="checkbox">
+					<input type="checkbox">
+				</label>
+				Dull
+			</label>
+
+			<label class="item item-checkbox">
+				<label class="checkbox">
+					<input type="checkbox">
+				</label>
+				Burning
+			</label>
+			<label class="item item-checkbox">
+				<label class="checkbox">
+					<input type="checkbox">
+				</label>
+				Cramping
+			</label>
+			<label class="item item-checkbox">
+				<label class="checkbox">
+					<input type="checkbox">
+				</label>
+				Stiffness
+			</label>
+			<label class="item item-checkbox">
+				<label class="checkbox">
+					<input type="checkbox">
+				</label>
+				Swelling
+			</label>
+			<label class="item item-input">
+				<input type="text" placeholder="Other Details">
+			</label>
+          </div>
+        </div>
+		<div class="item item-divider">
+			Comments and Notes
+		</div>	
+		<label class="item item-input">
+			<input type="text" placeholder="Comments and Notes">
+		</label>      
+      </div>
+    </form>
+  </ion-content>
+</div>
